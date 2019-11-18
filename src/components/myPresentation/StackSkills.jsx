@@ -8,8 +8,17 @@ const Stacks = () => (
 			<li>Bootstrap, Reactstrap</li>
 			<li>NodeJs, Express, MySql, SQL, Mocha</li>
 			<li>
-				Linux, Ubuntu, Git, VsCode, GitHub      
-				<img alt="github" src="../assets/github.png" className="pl-2"/>
+				Linux, Ubuntu, Git, VsCode, GitHub
+				<a
+					className="nav-link"
+					href="https://github.com/BB5014?tab=repositories"
+				>
+					<img
+						alt="github"
+						src="../assets/github.png"
+						className="pl-2"
+					/>
+				</a>
 			</li>
 			<li>Trello</li>
 		</ul>

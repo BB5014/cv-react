@@ -7,16 +7,13 @@ const Identity = () => (
 			Développeuse Web Junior
 		</h3>
 
-		<a
-			className="nav-link"
-			href="https://github.com/BB5014?tab=repositories"
-		>
+	
 			<img
 				alt="myPhoto"
 				src="../assets/myphoto.png"
 				className="w-25 m-auto p-2 d-flex justify-content-center"
 			/>
-		</a>
+		
 		<p>
 			En reconvesion professionnelle, j'ai décidé de suivre la formation
 			intensive de la Wild Code School de Bidart, pour devenir
