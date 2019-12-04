@@ -21,11 +21,24 @@ function App() {
 				d'apprentissage, je cherche un poste pour vous apportez mes
 				compétences."
 			/>
-			<Stacks />
-			<Soft />
-			<Education />
-			<CenterInterest />
-			<Contact />
+			<Stacks
+				stack="Stack Skills"
+				languages="HTML 5, CSS 3, JS, ReactJs"
+				librairies="Bootstrap, Reactstrap"
+				backEnd="NodeJs, Express, MySql, SQL, Mocha"
+				tools="Linux, Ubuntu, Git, VsCode, GitHub, Trello"
+			/>
+			<Soft
+				soft="Soft Skills"
+				soft1="Enthousiaste, optimiste"
+				soft2="Capacité d'adaptation"
+				soft3="Persévérante, tenace"
+				soft4="Rigoureuse"
+				soft5="Patiente, à l'écoute"
+			/>
+			<Education qualification="Education" degree1="Titre Professionnel Web & Mobile RNCP Niv III en préparation" degree2="DEUG Psychologie Générale" degree3="Baccalauréat Techniques Administratives" />
+			<CenterInterest interest="Center Interest" picto1="../../assets/voyage.png" picto2="../../assets/natation.png" picto3="../../assets/plage.png" picto4="../../assets/lecture.png"/>
+			<Contact title="Contact" linkedin="../../assets/linkedin.png" />
 		</div>
   );
 }

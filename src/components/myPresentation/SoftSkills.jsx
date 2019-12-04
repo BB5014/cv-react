@@ -1,14 +1,14 @@
 import React from "react";
 
-const Soft = () => (
+const Soft = ({ soft, soft1, soft2, soft3, soft4, soft5 }) => (
 	<div className="w-25 d-flex flex-column m-3">
-		<h4>SOFT SKILLS</h4>
-        <ul>
-            <li>Enthousiaste, optimiste</li>
-			<li>Capacité d'adaptation</li>
-			<li>Persévérante, tenace</li>
-			<li>Rigoureuse</li>
-			<li>Patiente, à l'écoute</li>
+		<h4>{soft.toUpperCase()}</h4>
+		<ul>
+			<li>{soft1}</li>
+			<li>{soft2}</li>
+			<li>{soft3}</li>
+			<li>{soft4}</li>
+			<li>{soft5}</li>
 		</ul>
 	</div>
 );

@@ -1,14 +1,14 @@
 import React from 'react';
 
-const Stacks = () => (
+const Stacks = ({ stack, languages, librairies, backEnd, tools}) => (
 	<div className="w-25 d-flex flex-column m-3">
-		<h4>STACK SKILLS</h4>
+		<h4>{stack.toUpperCase()}</h4>
 		<ul>
-			<li>HTML 5, CSS 3, JS, ReactJs</li>
-			<li>Bootstrap, Reactstrap</li>
-			<li>NodeJs, Express, MySql, SQL, Mocha</li>
+			<li>{languages}</li>
+			<li>{librairies}</li>
+			<li>{backEnd}</li>
 			<li>
-				Linux, Ubuntu, Git, VsCode, GitHub
+				{tools}
 				<a
 					className="nav-link"
 					href="https://github.com/BB5014?tab=repositories"
@@ -20,7 +20,6 @@ const Stacks = () => (
 					/>
 				</a>
 			</li>
-			<li>Trello</li>
 		</ul>
 	</div>
 );
