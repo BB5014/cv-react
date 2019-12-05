@@ -1,8 +1,8 @@
 import React from "react";
 
 const CenterInterest = ({interest, picto1, picto2, picto3, picto4}) => (
-	<div className="w-25 d-flex flex-column m-3">
-		<h4>{interest.toUpperCase()}</h4>
+	<div className="myInterest">
+		<h4>{interest}</h4>
 		<div className="d-flex flex-row mt-3">
 			<a className="nav-link" href="http://www.tentationsaustrales.com/">
 				<img alt="voyage" src={picto1} className="pl-2" />

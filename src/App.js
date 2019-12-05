@@ -9,16 +9,16 @@ import Contact from './components/myPresentation/Contact';
 
 function App() {
   return (
-		<div className="App d-flex flex-column flex-fill border-blue">
+		<div className="App w-25 d-flex flex-column flex-fill m-3 p-3">
 			<Identity
 				firstName="Nathalie"
 				name="Balotte"
-				job="Développeuse Web Junior"
+				job="Développeur Web"
 				photo="../../assets/myphoto.png"
-				presentation="	En reconvesion professionnelle, j'ai décidé de suivre la
-				formation intensive de la Wild Code School de Bidart, pour
-				devenir Développeuse Web & mobile. Après 5 mois intensifs
-				d'apprentissage, je cherche un poste pour vous apportez mes
+				presentation="	En reconversion professionnelle, j'ai décidé de suivre la
+				formation intensive de la Wild Code School à Bidart, pour
+				devenir Développeur(se) Web & mobile. Après 5 mois
+				d'apprentissage intensif, je cherche un poste pour vous apportez mes
 				compétences."
 			/>
 			<Stacks
@@ -36,8 +36,19 @@ function App() {
 				soft4="Rigoureuse"
 				soft5="Patiente, à l'écoute"
 			/>
-			<Education qualification="Education" degree1="Titre Professionnel Web & Mobile RNCP Niv III en préparation" degree2="DEUG Psychologie Générale" degree3="Baccalauréat Techniques Administratives" />
-			<CenterInterest interest="Center Interest" picto1="../../assets/voyage.png" picto2="../../assets/natation.png" picto3="../../assets/plage.png" picto4="../../assets/lecture.png"/>
+			<Education
+				qualification="Education"
+				degree1="Titre Professionnel Web & Mobile RNCP Niv III en préparation"
+				degree2="DEUG Psychologie Générale"
+				degree3="Baccalauréat Techniques Administratives"
+			/>
+			<CenterInterest
+				interest="Center Interest"
+				picto1="../../assets/voyage.png"
+				picto2="../../assets/natation.png"
+				picto3="../../assets/plage.png"
+				picto4="../../assets/lecture.png"
+			/>
 			<Contact title="Contact" linkedin="../../assets/linkedin.png" />
 		</div>
   );
