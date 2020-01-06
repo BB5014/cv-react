@@ -1,26 +1,36 @@
 .App {
-  min-height: 100vh;
-  background-color: grey;
-} 
-
-h1, h4 {
-  color: bisque;
-  font-weight: bold;
-  text-transform: uppercase;
+	min-height: 100vh;
+}
+/* Componenent Candidate */
+.candidate {
+	background-color: rgb(128, 128, 128);
 }
 
-h3, ul, #identity, p{
-  color:white;
-}
-h2 {
-  color: aliceblue;
-}
-
-hr {
-  background: bisque;
-  height: 0.2rem;
+.candidate h1,
+.candidate h4 {
+	color: bisque;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
-.stackSkills img:hover, .contactMe img:hover {
-  background: rgb(230, 249, 250);
+.candidate h3,
+.candidate ul {
+	color: white;
+}
+.candidate h2 {
+	color: aliceblue;
+}
+
+.candidate hr {
+	background: bisque;
+	height: 0.2rem;
+}
+
+.stackSkills img:hover,
+.contactMe img:hover {
+	background: rgb(230, 249, 250);
+}
+/* ProfessionnalElement */
+.titlePro {
+	background: bisque;
 }

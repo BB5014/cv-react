@@ -1,0 +1,32 @@
+const person = {
+	firstName: "Nathalie",
+	name: " Balotte",
+	job: "Développeur Web",
+	photo: "../../assets/myphoto.png",
+	presentation:
+		"En reconversion professionnelle, j'ai décidé de suivre la formation intensive de la Wild Code School à Bidart, pour devenir Développeur(se) Web & mobile. Après 5 mois d'apprentissage intensif, je cherche un poste pour vous apportez mes compétences.",
+    titleStack: "Stack Skills",
+    pictoGitHub: "../../assets/github.png",
+	languages: "HTML 5, CSS 3, JS, ReactJs",
+	librairies: "Bootstrap, Reactstrap",
+	backEnd: "NodeJs, Express, MySql, SQL, Mocha",
+	tools: "Linux, Ubuntu, Git, VsCode, GitHub, Trello",
+	titleSoft: "Soft Skills",
+	soft1: "Enthousiaste, optimiste",
+	soft2: "Capacité d'adaptation",
+	soft3: "Persévérante, tenace",
+	soft4: "Rigoureuse",
+	soft5: "Patiente, à l'écoute",
+	titleQualification: "Education",
+	degree1: "Titre Professionnel Web & Mobile RNCP Niv III en préparation",
+	degree2: "DEUG Psychologie Générale",
+	degree3: "Baccalauréat Techniques Administratives",
+	titleInterest: "Center Interest",
+	pictoTravel: "../../assets/voyage.png",
+	pictoSwimming: "../../assets/natation.png",
+	pictoBeach: "../../assets/plage.png",
+	pictoReading: "../../assets/lecture.png",
+	title: "Contact",
+	linkedin: "../../assets/linkedin.png"
+};
+export default person;
