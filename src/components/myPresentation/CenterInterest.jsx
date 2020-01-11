@@ -6,7 +6,8 @@ const CenterInterest = ({
 	pictoSwimming,
 	pictoBeach,
 	pictoReading
-}) => (
+}) => { 
+	return (
 	<div className="myInterest container-fluid">
 		<div className="row">
 			<div className="p-0">
@@ -45,4 +46,5 @@ const CenterInterest = ({
 		</div>
 	</div>
 );
+};
 export default CenterInterest;

@@ -1,6 +1,7 @@
 import React from "react";
 
-const Soft = ({ soft, soft1, soft2, soft3, soft4, soft5 }) => (
+const Soft = ({ soft, soft1, soft2, soft3, soft4, soft5 }) => {
+	return (
 	<div className="softSkills">
 		<h4>{soft}</h4>
 		<ul>
@@ -12,4 +13,7 @@ const Soft = ({ soft, soft1, soft2, soft3, soft4, soft5 }) => (
 		</ul>
 	</div>
 );
+};
+
+	
 export default Soft;
